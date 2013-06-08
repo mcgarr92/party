@@ -23,6 +23,7 @@
 		0A37B9D517629B7E0033E334 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A37B9B017629B7E0033E334 /* Foundation.framework */; };
 		0A37B9DD17629B7E0033E334 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A37B9DB17629B7E0033E334 /* InfoPlist.strings */; };
 		0A37B9E017629B7E0033E334 /* PartyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A37B9DF17629B7E0033E334 /* PartyTests.m */; };
+		0A37B9EB17629CF70033E334 /* YouTubeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A37B9EA17629CF70033E334 /* YouTubeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		0A37B9DC17629B7E0033E334 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0A37B9DE17629B7E0033E334 /* PartyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PartyTests.h; sourceTree = "<group>"; };
 		0A37B9DF17629B7E0033E334 /* PartyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PartyTests.m; sourceTree = "<group>"; };
+		0A37B9E917629CF70033E334 /* YouTubeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouTubeViewController.h; sourceTree = "<group>"; };
+		0A37B9EA17629CF70033E334 /* YouTubeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YouTubeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				0A37B9BD17629B7E0033E334 /* AppDelegate.h */,
 				0A37B9BE17629B7E0033E334 /* AppDelegate.m */,
 				0A37B9C617629B7E0033E334 /* MainStoryboard.storyboard */,
+				0A37B9E917629CF70033E334 /* YouTubeViewController.h */,
+				0A37B9EA17629CF70033E334 /* YouTubeViewController.m */,
 				0A37B9C917629B7E0033E334 /* ViewController.h */,
 				0A37B9CA17629B7E0033E334 /* ViewController.m */,
 				0A37B9B517629B7E0033E334 /* Supporting Files */,
@@ -273,6 +278,7 @@
 				0A37B9BB17629B7E0033E334 /* main.m in Sources */,
 				0A37B9BF17629B7E0033E334 /* AppDelegate.m in Sources */,
 				0A37B9CB17629B7E0033E334 /* ViewController.m in Sources */,
+				0A37B9EB17629CF70033E334 /* YouTubeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,7 +390,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Party/Party-Prefix.pch";
 				INFOPLIST_FILE = "Party/Party-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -395,7 +403,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Party/Party-Prefix.pch";
 				INFOPLIST_FILE = "Party/Party-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
